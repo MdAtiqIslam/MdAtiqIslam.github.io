@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Climate-Aware Computing
+title: home
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
