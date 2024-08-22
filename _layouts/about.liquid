@@ -83,7 +83,14 @@ Here's the code for the last row of images above:
 
 {% endraw %}
 
-
+<div class="post">
+  {% if page.related_publications %}
+    <h2>References</h2>
+    <div class="publications">
+      {% bibliography --cited_in_order %}
+    </div>
+  {% endif %}
+</div>
 
 {% comment %}
 ---
